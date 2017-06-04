@@ -82,12 +82,57 @@
  }
 }
 
+
 /*===== Fonts =====*/
 // @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
 // @import url(https://fonts.googleapis.com/css?family=Lobster);
 // @import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,600,500,300,200,100,800);
 @import url(https://fonts.googleapis.com/css?family=Acme);
+
+
+/* login/sign-up */
+.facepanel {
+      background-image: image_url("header.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 50px;
+
+.login-page, .sign-up-page {
+  margin-top: 120px;
+  margin-bottom: 80px;
+  span {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  form {
+    max-width: 480px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px #9daaaf, 0 0 8px #c1c5c1;
+    h2 {
+      margin-bottom: 30px;
+    }
+    .form-control {
+      position: relative;
+  	  font-size: 16px;
+  	  height: auto;
+  	  padding: 10px;
+      transition: 1s;
+  		@include box-sizing(border-box);
+      &:focus {
+        box-shadow: 1px 1px #fff;
+        border-color: #red;
+  		  z-index: 2;
+  		}
+    }
+  }
+
+ }
+}
 
 
 
@@ -470,21 +515,28 @@ body {
 .story-box {
   text-align: center;
   padding: 25px 62.5px 50px 62.5px;
+  background-color: #F2F3F4 ;
+  h2 {
+    color: #000000;
+
+  }
 
   h3 {
     font-size: 20px;
     text-align: left;
+    color: #34495E;
   }
 
   p {
-    color: #666;
+    color: #000000;
     line-height: 30px;
     text-align: justify;
   }
 
   img {
-    width: 150px;
-    border-radius: 50%;
+    height:200px;
+    width: 200px;
+    border-radius: 25%;
   }
 
   hr {
