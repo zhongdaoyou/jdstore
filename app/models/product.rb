@@ -5,4 +5,6 @@ class Product < ApplicationRecord
  has_many :users, through: :favorites, source: :user
 
  acts_as_votable
+
+ has_many :reviews
 end

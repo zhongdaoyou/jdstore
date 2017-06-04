@@ -45,9 +45,14 @@ gem 'ransack'
 gem 'seo_helper'
 gem 'acts_as_votable', '~> 0.10.0'
 
+#---评论商品---#
+gem 'ratyrate'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'pry'
+  gem 'awesome_rails_console'
   gem 'sqlite3'
 end
 
