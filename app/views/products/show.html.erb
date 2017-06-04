@@ -19,10 +19,12 @@
             <%= @product.description %>
           </p>
         </div>
+
         <div> 数量 : <%= @product.quantity %> </div>
         <br><br>
         <div class="product-price"> 价格 : ￥ <%= @product.price %> </div>
         <br><br>
+
         <div class="pull-center">
          <% if @product.quantity > 0 %>
                   <%= link_to("加入购物车", add_to_cart_product_path(@product), method: :post,
@@ -113,7 +115,7 @@
                 $('#star-freshness img').eq(0).trigger('click')
                 $('#star-look img').eq(0).trigger('click')
                 $('#star-price img').eq(0).trigger('click')
-              </script>              
+              </script>
 
       </div>
     </div>
