@@ -123,10 +123,74 @@
 </div>
 
 <!-- Second Container -->
-<div class="container-fluid bg-2 text-center" >
-  <h3 class="margin">品牌故事</h3>
+<!--===== 品牌故事 =====-->
+  <section class="story-box">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <h2><%= t('品牌故事') %></h2>
+        <div class="short-line"></div>
+        <div class="row">
+          <div class="col-md-3 col-md-offset-1">
+            <%= image_tag("https://ww3.sinaimg.cn/large/006tNbRwgy1fg9i8v3atij30hs0bidg8.jpg") %>
+          </div>
+          <div class="col-md-7">
+            <h3><%= t('必要') %></h3>
+            <p><%= t('我们不断努力，希望提供更多风格、美观实用的商品清单。') %></p>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-md-7 col-md-offset-1">
+            <h3><%= t('美好') %></h3>
+            <p><%= t('我们坚信商业的终极目的在于为人类服务，为多数人创造更美好的生活') %></p>
+          </div>
+          <div class="col-md-3">
+            <%= image_tag("https://ww1.sinaimg.cn/large/006tNbRwgy1fg9jpk9ze3j31kw11x7wk.jpg") %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-</div>
+
+  <!--===== 商品類型 =====-->
+  <section class="categories-box">
+    <div class="row">
+      <div class="col-md-4 category-content">
+        <%= link_to '#' , class: "category_1" do %>
+          <div class="category-box">
+            <%= image_tag("https://ww3.sinaimg.cn/large/006tNbRwgy1fg9ihvnzwjj30hs09eq3e.jpg") %>
+          </div>
+          <div>
+            <h3><%= t('品质家居') %></h3>
+            <p><%= t('Chloros， “深思后慎选你最喜欢的，一辈子珍惜使用它”。不随波逐流，不跟随短暂流行，坚持极简的风格，以简单的线条构成，使之适合永久使用') %></p>
+          </div>
+        <% end %>
+      </div>
+      <div class="col-md-4 category-content">
+        <%= link_to '#' , class: "category_2" do %>
+          <div class="category-box">
+            <%= image_tag("https://ww4.sinaimg.cn/large/006tNbRwgy1fg9itepi02j30hs0a0t9d.jpg") %>
+          </div>
+          <div>
+            <h3><%= t('精美文具') %></h3>
+            <p><%= t('“莎士比亚”的特别限量版就发行了 1597 支，以此来纪念《罗密欧与朱丽叶》在 1597 年的首次出版。“大仲马”这支笔也额外发行了一部分“错版”笔，即笔身的签名是“小仲马”，除此之外则并无区别。') %></p>
+          </div>
+        <% end %>
+      </div>
+      <div class="col-md-4 category-content">
+        <%= link_to '#' , class: "category_3" do %>
+          <div class="category-box">
+            <%= image_tag("https://ww1.sinaimg.cn/large/006tNbRwgy1fg9iz876fbj30gv0bt179.jpg") %>
+          </div>
+          <div>
+            <h3><%= t('精美餐具') %></h3>
+            <p><%= t('碗的灵感来自韩国传统石锅——不，还配有一个可爱、古朴的竹质碗盖。') %></p>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </section>
 
 <!-- Third Container (Grid) -->
 <div class="container-fluid bg-3 text-center">

@@ -514,21 +514,28 @@ body {
 .story-box {
   text-align: center;
   padding: 25px 62.5px 50px 62.5px;
+  background-color: #F2F3F4 ;
+  h2 {
+    color: #000000;
+
+  }
 
   h3 {
     font-size: 20px;
     text-align: left;
+    color: #34495E;
   }
 
   p {
-    color: #666;
+    color: #000000;
     line-height: 30px;
     text-align: justify;
   }
 
   img {
-    width: 150px;
-    border-radius: 50%;
+    height:200px;
+    width: 200px;
+    border-radius: 25%;
   }
 
   hr {
