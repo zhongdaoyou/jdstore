@@ -16,6 +16,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+
 @import url( 'https://fonts.googleapis.com/css?family=Oswald');
 
 
@@ -39,9 +40,20 @@
   }
 }
 
-
-
 /*===== 有效果，暂时不删除 ======*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/*===== Fonts =====*/
+// @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+// @import url(https://fonts.googleapis.com/css?family=Lobster);
+// @import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,600,500,300,200,100,800);
+@import url(https://fonts.googleapis.com/css?family=Acme);
+
+
+/*===== 網站通用設置 ======*/
+
 body {
   overflow-x: hidden; //裁切內容，超出視窗不顯示
   letter-spacing: 1px;

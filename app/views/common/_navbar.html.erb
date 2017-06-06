@@ -45,11 +45,11 @@
                 <% end %>
               </div>
             </li>
-
+             
             <!-- 購物車 -->
              <li>
               <%= link_to carts_path do %>
-                <i class='fa fa-shopping-cart'></i> 购物车( <%= current_cart.products.count %> )
+                <i class='fa fa-shopping-cart'></i> ( <%= current_cart.products.count %> )
               <% end %>
             </li>
 
@@ -65,20 +65,21 @@
                   <%= current_user.email %>
                   <b class='caret'></b>
                 </a>
-
-
-                <ul class="dropdown-menu">
+                <!-- 下拉選單 -->
+                <ul class='dropdown-menu'>
+                  <!-- admin 後台 -->
                   <% if current_user.admin? %>
-                  <li>
-                    <%= link_to("Admin 选单", admin_products_path) %>
-                  </li>
+                    <li> <%= link_to(t('admin-access'), admin_products_path) %> </li>
+                    <li class="divider"> </li>
                   <% end %>
+
                   <li>
                     <%= link_to("个人订单列表", account_orders_path ) %>
                   </li>
                   <!-- 我的收藏在navbar上显示，fix bug没有登录不显示我的收藏  -->
 
                   <li><%= link_to(content_tag(:i, "我的收藏", class: "fa fa-heart fa-md"), products_path(:favorite => "yes"))%> </li>
+
                   <li> <%= link_to(t('登出'), destroy_user_session_path, method: :delete) %> </li>
                 </ul>
               </li>
