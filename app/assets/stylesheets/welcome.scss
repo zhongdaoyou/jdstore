@@ -1,3 +1,232 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// landing-page
+
+.landing-page {
+  margin-bottom: 60px;
+  width: 100%;
+  height: relative;
+
+  .background-blue {
+    background-color: #deeff5 !important;
+  }
+
+  .description, .title {
+    color: #636363;
+    letter-spacing: 3px;
+  }
+
+  .header {
+    background-image: url('https://ws3.sinaimg.cn/large/006tNbRwgy1ffrso5xpn4j31kw0vju0x.jpg');
+    padding-top: 50px;
+
+    .title {
+      text-shadow: 0 4px 10px #0b61b9;
+    }
+
+    .slogan {
+      letter-spacing: 2px;
+    }
+
+    a {
+      margin-top: 50px;
+    }
+
+  }
+
+
+/* 确认有效 */
+  .section-head .description {
+    color: #636363;
+    line-height: 35px;
+  }
+
+  section {
+    padding-bottom: 100px;
+  }
+
+  .section-features {
+    background-color: #f5f5f5;
+    padding: 60px 0 80px;
+
+    .info-title {
+      letter-spacing: 3px;
+    }
+
+    p {
+      color: #636363;
+      letter-spacing: 3px;
+      line-height: 25px;
+      text-align: left;
+    }
+  }
+
+}
+
+
+
+
+// 主页用户评价轮播图
+
+.talk-about-us {
+  padding-bottom: 160px;
+  padding-top: 60px;
+  color: #666;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h2.section-title {
+  color: #004D40;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.short-line {
+  display: block;
+  background: #43A047;
+  border-style: none;
+  border-radius: 0;
+  margin: -10px auto 30px;
+  z-index: 53;
+  width: 120px;
+  height: 1.5px;
+  position: relative;
+}
+
+.carousel {
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.talk-about-us {
+  padding-bottom: 160px;
+  padding-top: 60px;
+  color: #666;
+}
+
+.talk-about-us .carousel-indicators {
+  bottom: -70px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 40px;
+}
+
+.talk-about-us .carousel-indicators > li {
+  background-color: #dcdcdc;
+  border: 0 none;
+  height: 10px;
+  margin: 1px;
+  width: 10px;
+  border-radius: 0;
+  margin: 0 5px;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.talk-about-us .carousel-indicators li.active {
+  background-color: #2E7D32;
+}
+
+.carousel-inner > .active {
+  left: 0;
+}
+
+.talk-about-us .item > img {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 50%; //照片以圆形显示，若改为20%则会变成方形照片四角为圆形倒角。
+  border: 2px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.about-us img,
+.carousel-inner > .item > img {
+  height: 400px;
+}
+
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.talk-about-us strong {
+  margin-top: 25px;
+  color: #2E7D32;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.thick {
+  font-weight: bold;
+}
+/*===== Intro 首页-广告轮播 =====*/
+.intro-box {
+  /*===== 轮播内容 =====*/
+  margin-top: -50px;
+
+  .item {
+    /* 标题 */
+    h3 {
+      // margin-top: -40%; //标题高度
+      font-size: 50px; //文字大小
+      letter-spacing: 5px; //文字间距
+    }
+    /* 内文 */
+    p {
+      font-size: 20px;
+    }
+    /* 图片 */
+    img {
+      width: 100%;
+      background-size: cover;
+    }
+  }
+}

@@ -41,9 +41,6 @@ gem 'aasm'
 gem 'carrierwave-qiniu'
 gem 'qiniu-rs'
 gem 'figaro'
-gem 'ransack'
-gem 'seo_helper'
-gem 'acts_as_votable', '~> 0.10.0'
 
 #---评论商品---#
 gem 'ratyrate'
@@ -70,4 +67,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
   gem 'pg'
-end
+end 
