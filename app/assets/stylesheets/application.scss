@@ -22,6 +22,7 @@
 
 
 /* login/sign-up */
+
 .facepanel {
       background-image: image_url("header.jpg");
       background-repeat: no-repeat;
@@ -174,7 +175,7 @@ body {
 /*===== 确认工作正常--Footer 页脚 ======*/
 .footer {
   text-align: center;
-  min-height: 200px;
+  height: 160px;
   background-color: #02061A;
   padding: 15px 0;
   color: #fff;
@@ -400,7 +401,7 @@ body {
   }
 
   img {
-    width: 300px;
+    width: 260px;
   }
 
   /*===== Content 分类內容 =====*/

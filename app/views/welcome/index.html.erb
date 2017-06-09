@@ -1,300 +1,254 @@
 
-<div id="myCarousel" class="carousel slide">
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
- </ol>
- <div class="carousel-inner">
-    <div class="item active">
-     <a href="#">
-      <img src="https://ws4.sinaimg.cn/large/006tNc79ly1fgbvwys5qhj31kw14nx6q.jpg" alt="First slide">
-      <div class="carousel-caption"></div>
-     </a>
-    </div>
-    <div class="item">
-     <a href="#">
-      <img src="https://ws4.sinaimg.cn/large/006tNc79ly1fgbw0pznbuj31kw0z34qr.jpg" alt="Second slide">
-      <div class="carousel-caption"></div>
-     </a>
-    </div>
-    <div class="item">
-      <a href="#">
-        <img src="https://ws2.sinaimg.cn/large/006tNc79ly1fgbw388d5qj31kw11ze82.jpg" alt="Third slide">
-        <div class="carousel-caption"></div>
-      </a>
-    </div>
-  </div>
-
- <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-   <span class="glyphicon glyphicon-chevron-left"></span>
- </a>
- <a class="carousel-control right" href="#myCarousel" data-slide="next">
-   <span class="glyphicon glyphicon-chevron-right"></span>
- </a>
-</div>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>买手街</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
-  <style>
-  body {
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
-      margin:0;
-      border:0;
-      padding:0;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 0px;}
-  .bg-1 {
-      background-color: #ffffff;
-      color: #02061A;
-
-  }
-  .bg-2 {
-      background-color: #02061A;
-      color: #ffffff;
-
-  }
-  .bg-3 {
-      background-color: #ffffff;
-      color: #555555;
-
-  }
-
-  .container-fluid {
-      padding-top: 0px;
-      padding-bottom: 100px;
-  }
-
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 100%;
-      margin: 10;
-  }
-
-  </style>
-
-</head>
-
-
-
-<div class="landing-page">
-  <div class="wrapper background-blue">
-    <div class="header header-filter">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 text-center">
-            <h1 class="title">我们只为你推荐必要的</h1>
-            <h3 class="slogan">让我们为你挑选最有品质、最实用的物品.</h3>
-            <br/>
-            <%= link_to products_path, class: "btn btn-danger btn-lg btn-round btn-raised" do %>
-              <%= fa_icon("play", text: "浏览商品") %>
-            <% end %>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="main main-raised">
-      <div class="section text-center section-head">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <h2 class="title">不仅「想要」，更需「必要」</h2>
-            <h5 class="description">“断舍离”的生活理念风靡全球，
-              <br>它帮助人们剔除生活中不必要的物品，
-              <br>让生活回归简单，“买手网”致力于做你极简生活
-              <br>道路上的过滤器，为你提供「必要」的物品.
-              <br>
-            </h5>
-          </div>
-        </div>
-      </div>
-
-      <!--===== 服务优势 =====-->
-  <section class="service-box   text-center">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <h2>好物推荐</h2> <!-- 副标题 -->
-        <div class="short-line"></div> <!-- 分隔线 -->
-        <div class="row">
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="box">
-              <img src="http://oqym24k6p.bkt.clouddn.com/xiaoyi/2017-06-03-IMG_4752.JPG" class="img-responsive margin" style="width:100%" alt="Image">
-              <h3>匠人手作<br>温润细腻</h3> <!-- 标题 -->
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="box">
-              <img src="http://oqym24k6p.bkt.clouddn.com/xiaoyi/2017-06-03-IMG_4751.JPG" class="img-responsive margin" style="width:100%" alt="Image">
-              <h3>百年老树<br>普洱茶饼</h3>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="box">
-              <img src="https://ws3.sinaimg.cn/large/006tNc79ly1fgbq5k958wj31kw11xx6p.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-              <h3>四遍摇清<br>“神火”焙火</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<section id="testimonial" class="talk-about-us">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2 col-xs-12 text-center">
-        <h2 class="section-title">用户反馈</h2>
-        <div class="short-line"></div>
-          <div id="talk-about-us" class="carousel slide" data-ride="carousel">
+<div class="container">
+  <div class="row content-box">
+     <div class="col-md-12">
+          <div id="myCarousel" class="carousel slide">
             <ol class="carousel-indicators">
-              <li data-target="#talk-about-us" data-slide-to="0" class="active"></li>
-              <li data-target="#talk-about-us" data-slide-to="1" class=""></li>
-              <li data-target="#talk-about-us" data-slide-to="2" class=""></li>
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <p><span class="thick">买手街只给最适合我的</span>让我更好的掌控了自己的生活，避免生活一团糟。</p>
-                <img src="https://ws3.sinaimg.cn/large/006tNc79ly1fgbx12yz2xj30690690sm.jpg" alt="User 1" />
-                <strong>小一，全栈路上狂奔的菜鸟</strong>
-              </div>
-              <div class="item">
-                <p><span class="thick">品质之选！</span>买手们的选择帮我最大程度筛选掉品质差的产品，节省了时间。</p>
-                <img src="https://ws4.sinaimg.cn/large/006tNc79ly1fgbx2qouqtj306f0633yf.jpg" alt="User 2" />
-                <strong>王笑笑，断舍离践行者 </strong>
-              </div>
-              <div class="item">
-                <p><span class="thick">长期关注优秀的买手推荐，</span>让我自己的选择能力也得到了提升。</p>
-                <img src="https://ws4.sinaimg.cn/large/006tNc79ly1fgbx37wg6ij3068069dft.jpg" alt="User 3" />
-                <strong>朱朱，理工闷骚男  </strong>
-              </div>
+            <div class="carousel-inner">
+                <div class="item active">
+                 <a href="#">
+                  <img src="https://ws4.sinaimg.cn/large/006tNc79ly1fgbvwys5qhj31kw14nx6q.jpg" alt="First slide" >
+                  <div class="carousel-caption"></div>
+                 </a>
+                </div>
+                <div class="item">
+                 <a href="#">
+                  <img src="https://ws4.sinaimg.cn/large/006tNc79ly1fgbw0pznbuj31kw0z34qr.jpg" alt="Second slide" >
+                  <div class="carousel-caption"></div>
+                 </a>
+                </div>
+                <div class="item">
+                  <a href="#">
+                    <img src="https://ws2.sinaimg.cn/large/006tNc79ly1fgbw388d5qj31kw11ze82.jpg" alt="Third slide" >
+                    <div class="carousel-caption"></div>
+                  </a>
+                </div>
             </div>
+
+             <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left"></span>
+             </a>
+             <a class="carousel-control right" href="#myCarousel" data-slide="next">
+               <span class="glyphicon glyphicon-chevron-right"></span>
+             </a>
           </div>
-      </div>
-    </div>
-  </div>
+
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <!-- Theme Made By www.w3schools.com - No Copyright -->
+            <title>买手街</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
+            <style>
+            body {
+                font: 20px Montserrat, sans-serif;
+                line-height: 1.8;
+                color: #f5f6f7;
+                margin:0;
+                border:0;
+                padding:0;
+            }
+            p {font-size: 16px;}
+            .margin {margin-bottom: 0px;}
+            .bg-1 {
+                background-color: #ffffff;
+                color: #02061A;
+
+            }
+            .bg-2 {
+                background-color: #02061A;
+                color: #ffffff;
+
+            }
+            .bg-3 {
+                background-color: #ffffff;
+                color: #555555;
+
+            }
+
+            .container-fluid {
+                padding-top: 0px;
+                padding-bottom: 100px;
+            }
+
+            .carousel-inner > .item > img,
+            .carousel-inner > .item > a > img {
+                width: 100%;
+                margin: 10;
+            }
+
+            </style>
+
+          </head>
 
 
-        <div class="section section-bottom">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h2 class="title text-center">让我们为您甄选</h2>
-              <h4 class="description text-center">我要的，才是必要的</h4>
+
+          <div class="landing-page">
+            <div class="wrapper background-blue">
+              <div class="header header-filter">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                      <h1 class="title">我们只为你推荐必要的</h1>
+                      <h3 class="slogan">让我们为你挑选最有品质、最实用的物品.</h3>
+                      <br/>
+                      <%= link_to products_path, class: "btn btn-danger btn-lg btn-round btn-raised" do %>
+                        <%= fa_icon("play", text: "浏览商品") %>
+                      <% end %>
+                    </div>
+                  </div>
+                </div>
+          </div>
+
+
+              <div class="main main-raised">
+                <div class="section text-center section-head">
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                      <h2 class="title">不仅「想要」，更需「必要」</h2>
+                      <h5 class="description">“断舍离”的生活理念风靡全球，
+                        <br>它帮助人们剔除生活中不必要的物品，
+                        <br>让生活回归简单，“买手网”致力于做你极简生活
+                        <br>道路上的过滤器，为你提供「必要」的物品.
+                        <br>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            <!--===== 商品類型 =====-->
+            <section class="categories-box">
               <div class="row">
-                <div class="text-center" >
-                  <%= link_to products_path, class: "btn btn-danger btn-round" do %>
-                  立即购买
+                <div class="col-md-4 category-content">
+                  <%= link_to '#' , class: "category_1" do %>
+                    <div class="category-box">
+                      <%= image_tag("https://ww3.sinaimg.cn/large/006tNbRwgy1fg9ihvnzwjj30hs09eq3e.jpg") %>
+                    </div>
+                    <div>
+                    <h3><%= t('品质家居') %></h3>
+                      <p><%= t('Chloros， “深思后慎选你最喜欢的，一辈子珍惜使用它”。不随波逐流，不跟随短暂流行，坚持极简的风格，以简单的线条构成，使之适合永久使用') %></p>
+                    </div>
+                  <% end %>
+                </div>
+                <div class="col-md-4 category-content">
+                  <%= link_to '#' , class: "category_2" do %>
+                    <div class="category-box">
+                      <%= image_tag("https://ww4.sinaimg.cn/large/006tNbRwgy1fg9itepi02j30hs0a0t9d.jpg") %>
+                    </div>
+                    <div>
+                      <h3><%= t('精美文具') %></h3>
+                      <p><%= t('“莎士比亚”的特别限量版就发行了 1597 支，以此来纪念《罗密欧与朱丽叶》在 1597 年的首次出版。“大仲马”这支笔也额外发行了一部分“错版”笔，即笔身的签名是“小仲马”，除此之外则并无区别。') %></p>
+                    </div>
+                  <% end %>
+                </div>
+                <div class="col-md-4 category-content">
+                  <%= link_to '#' , class: "category_3" do %>
+                    <div class="category-box">
+                      <%= image_tag("https://ww1.sinaimg.cn/large/006tNbRwgy1fg9iz876fbj30gv0bt179.jpg") %>
+                    </div>
+                    <div>
+                      <h3><%= t('精美餐具') %></h3>
+                      <p><%= t('碗的灵感来自韩国传统石锅——不，还配有一个可爱、古朴的竹质碗盖。') %></p>
+                    </div>
                   <% end %>
                 </div>
               </div>
-            </div>
+            </section>
+
+          <!-- Third Container (Grid) -->
+          <div class="container-fluid bg-3 text-center">
+
+                <h3 class="margin">好物推荐</h3><br>
+                <div class="short-line"></div>
+                <div class="row">
+                    <div class="col-sm-4">
+                      <p>景德镇陶瓷匠人手作，温润细腻</p>
+                      <img src="http://oqym24k6p.bkt.clouddn.com/xiaoyi/2017-06-03-IMG_4752.JPG" class="img-responsive margin" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-sm-4">
+                      <p>百年老树普洱茶饼</p>
+                      <img src="http://oqym24k6p.bkt.clouddn.com/xiaoyi/2017-06-03-IMG_4751.JPG" class="img-responsive margin" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-sm-4">
+                      <p>四遍摇清“神火”焙火</p>
+                      <img src="http://oqym24k6p.bkt.clouddn.com/xiaoyi/2017-06-03-IMG_4753.JPG" class="img-responsive margin" style="width:100%" alt="Image">
+                    </div>
+                </div>
           </div>
-        </div>
 
 
-<!-- Second Container -->
-<!--===== 品牌故事 =====-->
-  <section class="story-box">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <h2><%= t('品牌故事') %></h2>
-        <div class="short-line"></div>
-        <div class="row">
-          <div class="col-md-3 col-md-offset-1">
-            <%= image_tag("https://ww3.sinaimg.cn/large/006tNbRwgy1fg9i8v3atij30hs0bidg8.jpg") %>
-          </div>
-          <div class="col-md-7">
-            <h3><%= t('必要') %></h3>
-            <p><%= t('我们不断努力，希望提供更多风格、美观实用的商品清单。') %></p>
-          </div>
-        </div>
-        <hr />
-        <div class="row">
-          <div class="col-md-7 col-md-offset-1">
-            <h3><%= t('美好') %></h3>
-            <p><%= t('我们坚信商业的终极目的在于为人类服务，为多数人创造更美好的生活') %></p>
-          </div>
-          <div class="col-md-3">
-            <%= image_tag("https://ww1.sinaimg.cn/large/006tNbRwgy1fg9jpk9ze3j31kw11x7wk.jpg") %>
+            <section id="testimonial" class="talk-about-us">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2 col-xs-12 text-center">
+                    <h2 class="section-title">用户反馈</h2>
+                    <div class="short-line"></div>
+                      <div id="talk-about-us" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#talk-about-us" data-slide-to="0" class="active"></li>
+                          <li data-target="#talk-about-us" data-slide-to="1" class=""></li>
+                          <li data-target="#talk-about-us" data-slide-to="2" class=""></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                          <div class="item active">
+                            <p><span class="thick">买手街只给最适合我的</span>让我更好的掌控了自己的生活，避免生活一团糟。</p>
+                            <img src="https://ws3.sinaimg.cn/large/006tNc79ly1fgbx12yz2xj30690690sm.jpg" alt="User 1" >
+                            <strong>小一，全栈路上狂奔的菜鸟</strong>
+                          </div>
+                          <div class="item">
+                            <p><span class="thick">品质之选！</span>买手们的选择帮我最大程度筛选掉品质差的产品，节省了时间。</p>
+                            <img src="https://ws4.sinaimg.cn/large/006tNc79ly1fgbx2qouqtj306f0633yf.jpg" alt="User 2"  >
+                            <strong>王笑笑，断舍离践行者 </strong>
+                          </div>
+                          <div class="item">
+                            <p><span class="thick">长期关注优秀的买手推荐，</span>让我自己的选择能力也得到了提升。</p>
+                            <img src="https://ws4.sinaimg.cn/large/006tNc79ly1fgbx37wg6ij3068069dft.jpg" alt="User 3" >
+                            <strong>朱朱，理工闷骚男  </strong>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div class="section section-bottom">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  <div class="row">
+                    <div class="text-center" >
+                      <%= link_to products_path, class: "btn btn-danger btn-round" do %>
+                      立即购买
+                      <% end %>
+                    </div>
+                  </div>
+                  <h2 class="title text-center">让我们为您甄选</h2>
+                  <h4 class="description text-center">我要的，才是必要的</h4>
+
           </div>
         </div>
       </div>
     </div>
-  </section>
-
-
-  <!--===== 商品類型 =====-->
-  <section class="categories-box">
-    <div class="row">
-      <div class="col-md-4 category-content">
-        <%= link_to '#' , class: "category_1" do %>
-          <div class="category-box">
-            <%= image_tag("https://ww3.sinaimg.cn/large/006tNbRwgy1fg9ihvnzwjj30hs09eq3e.jpg") %>
-          </div>
-          <div>
-            <h3><%= t('品质家居') %></h3>
-            <p><%= t('Chloros， “深思后慎选你最喜欢的，一辈子珍惜使用它”。不随波逐流，不跟随短暂流行，坚持极简的风格，以简单的线条构成，使之适合永久使用') %></p>
-          </div>
-        <% end %>
-      </div>
-      <div class="col-md-4 category-content">
-        <%= link_to '#' , class: "category_2" do %>
-          <div class="category-box">
-            <%= image_tag("https://ww4.sinaimg.cn/large/006tNbRwgy1fg9itepi02j30hs0a0t9d.jpg") %>
-          </div>
-          <div>
-            <h3><%= t('精美文具') %></h3>
-            <p><%= t('“莎士比亚”的特别限量版就发行了 1597 支，以此来纪念《罗密欧与朱丽叶》在 1597 年的首次出版。“大仲马”这支笔也额外发行了一部分“错版”笔，即笔身的签名是“小仲马”，除此之外则并无区别。') %></p>
-          </div>
-        <% end %>
-      </div>
-      <div class="col-md-4 category-content">
-        <%= link_to '#' , class: "category_3" do %>
-          <div class="category-box">
-            <%= image_tag("https://ww1.sinaimg.cn/large/006tNbRwgy1fg9iz876fbj30gv0bt179.jpg") %>
-          </div>
-          <div>
-            <h3><%= t('精美餐具') %></h3>
-            <p><%= t('碗的灵感来自韩国传统石锅——不，还配有一个可爱、古朴的竹质碗盖。') %></p>
-          </div>
-        <% end %>
-      </div>
-    </div>
-  </section>
-
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">
-
-      <h3 class="margin">好物推荐</h3><br>
-
-      <div class="row">
-          <div class="col-sm-4">
-            <p>景德镇陶瓷匠人手作，温润细腻</p>
-            <img src="http://oqym24k6p.bkt.clouddn.com/xiaoyi/2017-06-03-IMG_4752.JPG" class="img-responsive margin" style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-4">
-            <p>百年老树普洱茶饼</p>
-            <img src="http://oqym24k6p.bkt.clouddn.com/xiaoyi/2017-06-03-IMG_4751.JPG" class="img-responsive margin" style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-4">
-            <p>四遍摇清“神火”焙火</p>
-            <img src="http://oqym24k6p.bkt.clouddn.com/xiaoyi/2017-06-03-IMG_4753.JPG" class="img-responsive margin" style="width:100%" alt="Image">
-          </div>
-      </div>
-</div>
-</div>
-      </div>
   </div>
+</div>
