@@ -17,11 +17,11 @@ u.is_admin = true
 u.save
 
 u = User.new
-u.email = "xiaoyi@msj.com"           # 可以改成自己的 email
+u.email = "xiaoyiam@gmail.com"           # 可以改成自己的 email
 
-u.password = "123456"                # 最少要六码
+u.password = "kuyu1015"                # 最少要六码
 
-u.password_confirmation = "123456"   # 最少要六码
+u.password_confirmation = "kuyu1015"   # 最少要六码
 
 u.is_admin = true
 u.save
