@@ -1,39 +1,39 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+// <meta charset="utf-8">
+//<meta name="viewport" content="width=device-width, initial-scale=1">
+//<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+//<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+//<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+//<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+//<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+//<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
+
+
+
+
 
 
 // landing-page
-
+//有用
 .landing-page {
   margin-bottom: 60px;
   width: 100%;
   height: relative;
-
+//有用
   .background-blue {
     background-color: #deeff5 !important;
   }
-
+//有用
   .description, .title {
     color: #636363;
     letter-spacing: 3px;
   }
-
+//有用
   .header {
     background-image: url('https://ws3.sinaimg.cn/large/006tNbRwgy1ffrso5xpn4j31kw0vju0x.jpg');
-    padding-top: 50px;
-
-    .title {
-      text-shadow: 0 4px 10px #0b61b9;
-    }
-
-    .slogan {
-      letter-spacing: 2px;
-    }
-
-    a {
-      margin-top: 50px;
-    }
+    padding-top: 60px;
 
   }
 
@@ -43,27 +43,6 @@
     color: #636363;
     line-height: 35px;
   }
-
-  section {
-    padding-bottom: 100px;
-  }
-
-  .section-features {
-    background-color: #f5f5f5;
-    padding: 60px 0 80px;
-
-    .info-title {
-      letter-spacing: 3px;
-    }
-
-    p {
-      color: #636363;
-      letter-spacing: 3px;
-      line-height: 25px;
-      text-align: left;
-    }
-  }
-
 }
 
 
@@ -72,9 +51,9 @@
 // 主页用户评价轮播图
 
 .talk-about-us {
-  padding-bottom: 160px;
+  padding-bottom: 100px;
   padding-top: 60px;
-  color: #666;
+  color: #31B8B6;
 }
 
 .container {
@@ -114,7 +93,9 @@ h2.section-title {
 
 
 .talk-about-us .carousel-indicators {
+
   bottom: -70px;
+
 }
 
 .carousel-indicators {

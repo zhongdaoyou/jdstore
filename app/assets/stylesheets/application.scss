@@ -176,7 +176,7 @@ body {
 .footer {
   text-align: center;
   height: 160px;
-  background-color: #02061A;
+  background-color: #1F55A2  ;
   padding: 15px 0;
   color: #fff;
   font-size: 14px;
@@ -404,7 +404,7 @@ body {
     width: 260px;
   }
 
-  /*===== Content 分类內容 =====*/
+  /*有用===== Content 分类內容 =====*/
   .category-content {
     padding: 50px 0 0 0;
 
@@ -424,41 +424,5 @@ body {
       line-height: 26px;
 
     }
-  }
-}
-
-/*===== Show 首页-推荐商品 =====*/
-.show-box {
-  text-align: center;
-  padding: 50px 0 50px 0;
-
-  img {
-    width: 100%;
-  }
-
-  .box {
-	  margin-top: 15px;
-	  box-shadow: 0.5px 0.5px 3px #aaa;
-	}
-
-  .three {
-    margin-top: 12px;
-  }
-
-  .box:hover {
-    opacity: 0.6;
-  }
-
-}
-
-/*===== Brands 首页-合作伙伴 =====*/
-.brand-box {
-  background-color: #F5F5F5;
-  text-align: center;
-  padding: 50px 0;
-
-  img {
-    margin: 25px 15px 35px;
-    width: 150px;
   }
 }
